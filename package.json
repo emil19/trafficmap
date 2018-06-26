@@ -1,0 +1,30 @@
+{
+  "name": "trafficmap",
+  "version": "1.0.0",
+  "description": "Traffic Map using SR api https://sverigesradio.se/api/documentation/v2/metoder/trafik.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emil19/trafficmap.git"
+  },
+  "author": "Emil19",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emil19/trafficmap/issues"
+  },
+  "homepage": "https://github.com/emil19/trafficmap#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "leaflet": "^1.3.1"
+  }
+}

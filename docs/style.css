@@ -1,0 +1,20 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+#map-container {
+	background: #262626;
+	height: 100vh;
+}
+
+dt::after {
+	content: ": ";
+}
+
+dt {
+	font-weight: bold;
+} 
