@@ -1,0 +1,24 @@
+<label>
+  Prioritet
+  <select name="priority">
+    <option></option>
+    {{#priority}} 
+    <option value="{{value}}">{{text}}</option>
+    {{/priority}}
+  </select>
+</label>
+
+<label>
+  Kategori
+  <select name="category">
+    <option></option>
+    {{#category}} 
+    <option value="{{value}}">{{text}}</option>
+    {{/category}}
+  </select>
+</label>
+
+<label>
+  Sök
+  <input name="search" type="text">
+</label>
